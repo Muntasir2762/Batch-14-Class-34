@@ -1,0 +1,26 @@
+=====Conditional Statement====
+
+1. if/else
+
+2. switch/case
+
+$color = 'Green';
+
+switch($color){
+    case 'Green';
+    echo 'Success';
+    break;
+
+    
+    case 'Yellow';
+    echo 'Warning';
+    break;
+
+    case 'Blue';
+    echo 'Info';
+    break;
+
+    default:
+    echo 'Failure';
+    break;
+}
